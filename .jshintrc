@@ -1,0 +1,30 @@
+{
+    "node": true,
+    "browser": true,
+    "esnext": true,
+    "bitwise": false,
+    "camelcase": false,
+    "curly": true,
+    "eqeqeq": true,
+    "indent": 3,
+    "undef": false,
+    "strict": true,
+    "trailing": true,
+    "latedef": "nofunc",
+    "newcap": false,
+    "globals": {
+        /*Karma*/
+        "describe": false,
+        "it": false,
+        "iit": false,
+        "before": false,
+        "beforeEach": false,
+        "after": false,
+        "angular": false,
+        "inject": false,
+        "expect": false,
+        "spyOn": false,
+        "toBeTruthy": false
+    },
+    "jquery": false
+}

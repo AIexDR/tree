@@ -1,0 +1,42 @@
+ul {
+    list-style-type:none;
+	padding: 0 20px;
+	color: #428bca;
+}
+li {
+    position: relative;
+    display: block;
+}
+
+.recursiveTree {
+	float: left;
+	width: 500px;
+	font-size: 14px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+}
+.name-block {
+	margin: 5px 0;
+}
+.name {
+	padding: 0 10px 0 0;
+}
+.treeAsList {
+	margin-left: 500px;
+	font-size: 14px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+}
+.indent {
+	margin-left: 10px;
+    margin-right: 10px;
+}
+.list-element {
+	position: relative;
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+}
+.clickable {
+	cursor: pointer;
+}

@@ -1,0 +1,12 @@
+How to build project:
+----------------------
+Install npm from https://nodejs.org/en/
+Run 'npm install'
+Install Grunt CLI by 'npm install -g grunt-cli'
+Run 'grunt' in root project directory
+Get built project in Build directory
+
+How to run unit test
+----------------------
+'grunt karma'
+Test coverage reports are generated in 'sonar' directory
