@@ -46,8 +46,6 @@
         });
         $scope.toggle = function(data) {
             $scope.expanded = !$scope.expanded;
-            //$scope.$broadcast('toggle');
-            console.log($scope.$parent);
         };
     }]);
 })();
