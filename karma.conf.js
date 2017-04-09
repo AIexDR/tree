@@ -42,6 +42,7 @@ module.exports = function(config) {
         ],
         logLevel: config.INFO,
         browsers: ['PhantomJS'],
+        //browsers: ['Chrome'],
         singleRun: true,
         autoWatch: false,
 
