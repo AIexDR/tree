@@ -11,16 +11,18 @@
 	<body ng-app="myApp">
 		<div class="recursiveTree">
 			<script type="text/ng-template"  id="tree-template.html">
+			<div ng-controller="NodeController">
 				<div class="name-block">
-					<span ng-click="toggle(data)" class="clickable glyphicon {{data.expanded ? 'glyphicon-minus' : 'glyphicon-plus'}}" style="visibility: {{data.nodes.length ? 'visible' : 'hidden'}}" aria-hidden="true"></span>
+					<span ng-click="toggle(data)" class="clickable glyphicon {{expanded ? 'glyphicon-minus' : 'glyphicon-plus'}}" style="visibility: {{data.nodes.length ? 'visible' : 'hidden'}}" aria-hidden="true"></span>
 					<span class="name">{{data.name}}</span>
 					<span ng-click="remove(data)" class="clickable glyphicon glyphicon-remove" aria-hidden="true"></span>
 					<span ng-click="rename(data)" class="clickable glyphicon glyphicon-pencil" aria-hidden="true"></span>
 					<span ng-click="add(data)" class="clickable glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
 				</div>
-				<ul ng-show="data.expanded" ng-controller="NodeController">
+				<ul ng-show="expanded" >
 					<li ng-repeat="data in data.nodes track by $index" ng-include="'tree-template.html'"></li>
 				</ul>
+			</div>
 			</script>
 
 			<ul ng-controller="TreeController">

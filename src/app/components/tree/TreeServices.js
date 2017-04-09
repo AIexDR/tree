@@ -5,14 +5,12 @@
 /*		class Node {
 			constructor(name) {
 				this.name = name;
-				this.expanded = true;
 				this.nodes = [];
 			}
 		}
 */		
 		function Node(name) {
 			this.name = name;
-			this.expanded = true;
 			this.nodes = [];
 		}
 		return Node;

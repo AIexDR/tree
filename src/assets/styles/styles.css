@@ -9,6 +9,7 @@ li {
 }
 
 .recursiveTree {
+    margin-left: 50px;
 	float: left;
 	width: 500px;
 	font-size: 14px;
@@ -22,6 +23,8 @@ li {
 	padding: 0 10px 0 0;
 }
 .treeAsList {
+    width: 400px;
+    margin-top: 20px;
 	margin-left: 500px;
 	font-size: 14px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

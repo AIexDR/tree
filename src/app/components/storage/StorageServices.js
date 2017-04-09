@@ -3,7 +3,7 @@
     var services = window.angular.module('StorageServices', []);
     services.factory('LocalStorageService', function () {
 
-        var defaultTree = [{name: "Node", expanded: true, nodes: []}];
+        var defaultTree = [{name: "Node", nodes: []}];
 
         return {
             get tree() {
